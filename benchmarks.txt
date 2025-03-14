@@ -1,0 +1,31 @@
+Benchmarks complete for best-colab.pt on data-win.yaml at imgsz=320 (371.50s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)     FPS
+0                 PyTorch       ✅        5.0               0.7920                    8.67  115.37
+1             TorchScript       ✅        9.9               0.7385                    4.84  206.55
+2                    ONNX       ✅        9.7               0.7384                    9.01  111.04
+3                OpenVINO       ❌        0.0                  NaN                     NaN     NaN
+4                TensorRT       ✅       15.3               0.7384                    2.36  423.76
+5                  CoreML       ❌        0.0                  NaN                     NaN     NaN
+6   TensorFlow SavedModel       ✅       24.2               0.7384                   29.94   33.39
+7     TensorFlow GraphDef       ✅        9.7               0.7384                   30.33   32.97
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN     NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN     NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN     NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN     NaN
+12                   NCNN       ✅        9.6               0.7384                   12.52   79.88
+
+Benchmarks complete for best.pt on data-win.yaml at imgsz=320 (350.20s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)     FPS
+0                 PyTorch       ✅        5.0               0.7921                    8.63  115.80
+1             TorchScript       ✅        9.9               0.7546                    5.64  177.25
+2                    ONNX       ✅        9.7               0.7546                    6.50  153.90
+3                OpenVINO       ❌        0.0                  NaN                     NaN     NaN
+4                TensorRT       ✅       13.4               0.7548                    2.79  358.22
+5                  CoreML       ❌        0.0                  NaN                     NaN     NaN
+6   TensorFlow SavedModel       ✅       24.2               0.7546                   22.00   45.45
+7     TensorFlow GraphDef       ✅        9.7               0.7546                   21.09   47.41
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN     NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN     NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN     NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN     NaN
+12                   NCNN       ✅        9.6               0.7546                   10.99   91.02

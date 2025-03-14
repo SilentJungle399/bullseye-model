@@ -1,0 +1,14 @@
+description: Ultralytics YOLOv5nu model trained on /content/bullseye-detection-2/data.yaml
+author: Ultralytics
+date: '2025-03-13T19:21:26.996567'
+version: 8.3.23
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: bullseye
