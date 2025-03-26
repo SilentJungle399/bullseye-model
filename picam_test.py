@@ -35,16 +35,10 @@ while True:
     # Capture frame
     frame = picam2.capture_array()
 
-    # Resize for faster processing
     frame = cv2.resize(frame, (640, 480))
-
-    # Detect bullseye
     output_frame = detect_bullseye(frame)
-
-    # Display the result
     cv2.imshow("Bullseye Detection", output_frame)
 
-    # Press 'q' to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
